@@ -42,5 +42,6 @@ function createNote(text) {
 function generateRandomColor() {
     let colorList = ['#c2ff3d', '#615EFC', "#15F5BA", '#ff3de8', '#3dc3ff', "#04e022", "#bc83e6", '#ebb328'];
     let randomIndex = Math.floor(Math.random() * colorList.length);
+    console.log(colorList[randomIndex]);
     return colorList[randomIndex];
 }
